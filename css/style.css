@@ -47,20 +47,25 @@ h1 {
   margin: 15px;
   height: 240px;
   width: 320px;
-  background: green;
+  background: #515151;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  position: relative;
 }
 
 .portfolio__photos img {
-  transform: scale(1.15);
   transition: all 0.5s;
 }
 
 .portfolio__photos img:hover {
-  transform: scale(1);
+  transform: scale(1.15);
+  opacity: 0.2;
+}
+
+.portfolio__photos a:hover .portfolio__hidden-title {
+  opacity: 1;
 }
 
 .portfolio__heading {
@@ -91,6 +96,18 @@ h1 {
   color: #2b2b2b;
   font-weight: 400;
   margin-top: 25px;
+}
+
+.portfolio__hidden-title {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  border: 1px white solid;
+  padding: 15px;
+  opacity: 0;
+  color: white;
+  z-index: 0;
+  transition: all 0.2s;
 }
 
 /* ===MAIN=== */

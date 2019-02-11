@@ -20,9 +20,20 @@ h1 {
 }
 
 .portfolio__container {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio__box {
+  margin: 10px;
+  height: 240px;
+  width: 320px;
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ===MAIN=== */

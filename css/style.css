@@ -43,7 +43,7 @@ h1 {
   flex-wrap: wrap;
 }
 
-.portfolio__box {
+.portfolio__photos {
   margin: 15px;
   height: 240px;
   width: 320px;
@@ -51,6 +51,16 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+
+.portfolio__photos img {
+  transform: scale(1.15);
+  transition: all 0.5s;
+}
+
+.portfolio__photos img:hover {
+  transform: scale(1);
 }
 
 .portfolio__heading {

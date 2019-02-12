@@ -11,6 +11,17 @@ body {
 }
 
 /* ===HEADER=== */
+<<<<<<< HEAD
+=======
+
+.header-banner {
+  height: 20vh;
+  background-color: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  position: sticky;
+  z-index: 999;
+}
+
+>>>>>>> header-section
 .header-container{
   position: relative;
 }
@@ -45,11 +56,19 @@ body {
   margin-left: 15px;
 }
 .header-background{
+<<<<<<< HEAD
+=======
+
+>>>>>>> header-section
   background-image: url(../images/devin-walker-homepage.jpg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+<<<<<<< HEAD
+=======
+
+>>>>>>> header-section
   background-position: right;
   z-index: 1; 
   display: flex;
@@ -78,7 +97,7 @@ body {
   background: white;
 }
 
-.container {
+.portfolio__container {
   max-width: 1050px;
   margin: 0 auto;
   display: flex;
@@ -172,6 +191,21 @@ body {
   background-position: center;
 }
 
+.services__container {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services__box {
+  height: 240px;
+  width: 320px;
+  margin: 15px;
+  background: red;
+}
 /* ===MAIN=== */
 
 /* ===FOOTER=== */

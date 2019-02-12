@@ -117,8 +117,7 @@ h2 {
   transition: all 0.5s;
 }
 
-.portfolio__photos img:hover,
-.portfolio__photoa a:hover {
+.portfolio__photos img:hover {
   transform: scale(1.15);
   opacity: 0.2;
 }
@@ -174,16 +173,17 @@ h2 {
   padding: 15px;
   opacity: 0;
   color: white;
-  z-index: 0;
+
   transition: all 0.2s;
 }
 
 /* ===SERVICES=== */
 .services {
-  padding: 150px 0 120px 0;
+  padding: 150px 0 150px 0;
   background: url(https://imdev.in/wp-content/uploads/2014/12/home-services.jpg);
 
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
@@ -200,9 +200,27 @@ h2 {
 .services__box {
   height: 240px;
   width: 320px;
-  margin: 15px;
-  background: red;
+  text-align: center;
+  padding: 30px 5px;
 }
+
+.service__title {
+  font-size: 110%;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.services__paragraph {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 102%;
+}
+
+.services__box img {
+  margin-bottom: 25px;
+}
+
 /* ===MAIN=== */
 
 /* ===FOOTER=== */

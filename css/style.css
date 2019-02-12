@@ -11,8 +11,6 @@ body {
 }
 
 /* ===HEADER=== */
-<<<<<<< HEAD
-=======
 
 .header-banner {
   height: 20vh;
@@ -21,7 +19,6 @@ body {
   z-index: 999;
 }
 
->>>>>>> header-section
 .header-container{
   position: relative;
 }
@@ -56,19 +53,11 @@ body {
   margin-left: 15px;
 }
 .header-background{
-<<<<<<< HEAD
-=======
-
->>>>>>> header-section
   background-image: url(../images/devin-walker-homepage.jpg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-<<<<<<< HEAD
-=======
-
->>>>>>> header-section
   background-position: right;
   z-index: 1; 
   display: flex;

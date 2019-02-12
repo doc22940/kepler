@@ -12,68 +12,75 @@ body {
 
 /* ===HEADER=== */
 
-.header-banner {
+/* .header-banner {
   height: 20vh;
   background-color: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
   position: sticky;
   z-index: 999;
-}
+} */
 
-.header-container{
-  position: relative;
-}
-
-.menu-banner{
-  background: linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.301));
-  height: 10vh;
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.menu-banner i{
-  flex-basis: 50%;
-  font-size: 200%;
-  padding: 20px;
-/*   color: #BD7660;*/ 
-  color: white;
-
-}
-
-.menu-banner h1{
-  flex-basis: 50%;
-  border: 4px solid white;
-  color: white;
-  padding: 5px;
-  width: 150px;
-  text-align: center;
-}
-.logo-container{
-  margin-left: 15px;
-}
-.header-background{
+header{
   background-image: url(../images/devin-walker-homepage.jpg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right;
-  z-index: 1; 
+  background-position: 50% 1%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.menu-banner{
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo-container{
+  flex: 1;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.logo-container h1{
+  border: 4px solid white;
+  color: white;
+  
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+}
+.hamburger-menu{
+  flex: 1;
+  display: flex;
+  margin: 20px;
+  justify-content: flex-end;
+}
+.hamburger-menu i{
+  font-size: 200%;
+  padding: 20px;
+  color: white;
+
+}
+.header-text{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.header-background h1{
-  color: rgba(240, 248, 255, 0.363);
+.header-text h1, h2{
+  color: white;
   text-align: center;
   align-items: center;
-}
-.header-background h2{
-  color: rgba(240, 248, 255, 0.363);
-  text-align: center;
-  align-items: center;
+  text-shadow: 1px 1px 15px #000;
 }
 
 /* .logo-container{

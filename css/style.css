@@ -19,12 +19,12 @@ body {
   z-index: 999;
 }
 
-.header-container{
+.header-container {
   position: relative;
 }
 
-.menu-banner{
-  background: linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.301));
+.menu-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.301));
   height: 10vh;
   position: sticky;
   top: 0;
@@ -32,16 +32,15 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.menu-banner i{
+.menu-banner i {
   flex-basis: 50%;
   font-size: 200%;
   padding: 20px;
-/*   color: #BD7660;*/ 
+  /*   color: #BD7660;*/
   color: white;
-
 }
 
-.menu-banner h1{
+.menu-banner h1 {
   flex-basis: 50%;
   border: 4px solid white;
   color: white;
@@ -49,28 +48,28 @@ body {
   width: 150px;
   text-align: center;
 }
-.logo-container{
+.logo-container {
   margin-left: 15px;
 }
-.header-background{
+.header-background {
   background-image: url(../images/devin-walker-homepage.jpg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
-  z-index: 1; 
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
 }
-.header-background h1{
+.header-background h1 {
   color: rgba(240, 248, 255, 0.363);
   text-align: center;
   align-items: center;
 }
-.header-background h2{
+.header-background h2 {
   color: rgba(240, 248, 255, 0.363);
   text-align: center;
   align-items: center;
@@ -110,7 +109,8 @@ body {
   transition: all 0.5s;
 }
 
-.portfolio__photos img:hover {
+.portfolio__photos img:hover,
+.portfolio__photoa a:hover {
   transform: scale(1.15);
   opacity: 0.2;
 }
@@ -184,7 +184,7 @@ body {
   max-width: 1050px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+
   flex-wrap: wrap;
   justify-content: space-between;
 }

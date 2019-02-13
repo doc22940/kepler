@@ -127,6 +127,191 @@ h1 {
   background-size: cover;
   background-position: center;
 }
+/* =====ALBA==Blog====Contactme==== */
+.blog1 {
+  padding: 80px 0;
+  background: white;
+}
+
+.header {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.button-box{
+  display: flex;
+  align-items: center;
+  
+
+}
+a.button {
+ text-decoration: none ;
+  display: inline;
+  border: 1px grey;
+  text-transform: uppercase;
+border: 1px solid grey;
+padding: 15px;
+font-size: 80%;
+
+}
+.blog2 {
+  padding: 80 0;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px dashed #CCC;
+  margin: 0 0 35px;
+  padding: 0 0 25px;
+}
+.header1 {
+  max-width: 1050;
+  margin: 0 auto;
+  
+
+}
+.header1 a {
+  text-decoration: none;
+  display:inline;
+  color: black;
+
+}
+.header1 a:hover {
+  color: grey;
+}
+.header1 p{
+  margin: 20px auto;
+}
+a.button1 {
+  text-decoration: none ;
+   display: inline;
+   border: 1px grey;
+   text-transform: uppercase;
+ border: 1px solid grey;
+ padding: 15px;
+ font-size: 80%;
+}
+.blog3 {
+  padding: 80 0;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px dashed #CCC;
+  margin: 0 0 35px;
+  padding: 0 0 25px;
+
+}
+.header2 {
+  max-width: 1050;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.header2 a {
+  text-decoration: none;
+  display:inline;
+  color: black;
+}
+.header2 a:hover {
+  color: grey;
+}
+.header2 p {
+  margin: 20px auto;
+}
+a.button2 {
+  text-decoration: none ;
+   display: inline;
+   border: 1px grey;
+   text-transform: uppercase;
+ border: 1px solid grey;
+ padding: 15px;
+ font-size: 80%;
+}
+.blog4 {
+  padding: 80 0;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 35px;
+  padding: 0 0 25px;
+
+}
+.header3 {
+  max-width: 1050;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.header3 a {
+  text-decoration: none;
+  display:inline;
+  color: black;
+}
+.header3 a:hover {
+  color: grey;
+}
+.header3 p {
+  margin: 20px auto;
+}
+/* =====Contact Me==== */
+.ContactMe {
+  padding: 150px 0 120px 0;
+  background: url('../images/devin-amps.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.contact-container {
+  font-size: 80%;
+  text-align: center;
+  font-family: "brandon-grotesque" sans-serif;
+  margin-bottom: 30px;
+  top: 40%;
+  left: 40%;
+  color: white;
+  margin: 0 0 20px 0;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.8; 
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 68px;
+}
+.heading-paragraph-white{
+  font-size: 205%;
+  margin-bottom: 25px;
+}
+.button-box-contactme{
+  padding: 10px 30px;
+  display:inline-flex;
+   text-transform: uppercase;
+ font-size: 115%;
+ background: transparent;
+ color: white;
+ border:2px solid #b4b4b4;
+ text-align: center;
+ margin: 0 auto;
+ font-weight: 700;
+
+
+ 
+}
+.buttoncontactme{
+  font-family: "brandon-grotesque",sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  
+  
+}
+
+
+
+.test-section{
+
+  height: 60vh;
+}
 
 /* ===MAIN=== */
 

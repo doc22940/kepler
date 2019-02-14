@@ -4,7 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
 
+}
 body {
   color: #6a6a6a;
   font-size: 16px;
@@ -33,8 +36,6 @@ header {
 }
 .menu-banner {
   height: 10vh;
-  position: sticky;
-  top: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -65,6 +66,100 @@ header {
   padding: 20px;
   color: white;
 }
+
+/* ========== sticky menu ==========  */
+.menu-banner-sticky {
+  height: 8vh;
+  width: 100%;
+  padding: 20px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+.menu-banner-sticky .logo-container h1{
+
+  font-size: 100%;
+}
+
+.logo-container {
+  flex: 1;
+  margin: 20px 0 25px 15px;
+  padding: 60px 20px;
+}
+
+.logo-container h1 {
+  border: 4px solid white;
+  color: white;
+  font-size: 200%;
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+}
+.hamburger-menu {
+  flex: 1;
+  display: flex;
+  margin: 20px;
+  justify-content: flex-end;
+}
+.hamburger-menu i {
+  font-size: 200%;
+  padding: 20px;
+  color: white;
+}
+
+/* css for the disappearing menu */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+  padding-left: 20px;
+  
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 100%;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -10px;
+  right: 65px;
+  font-size: 40px;
+}
+/* ========== sticky menu ENDS ==========  */
+
 .header-text {
   display: flex;
   flex-direction: column;
@@ -93,9 +188,21 @@ header {
   text-shadow: 1px 1px 15px #000;
 }
 
-/* ============ BELOW HEADER TEXT made by hari */
-
-.placeholder-text {
+.arrow{
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: transparent;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+}
+.arrow i{
+  width: 100%;
+  font-size: 300%;
+  color: white; 
+}
+.placeholder-text{
   min-height: 40vh;
   max-height: 50vh;
   padding: 80px 30px !important;
@@ -110,6 +217,7 @@ header {
   font-size: 150%;
   margin: auto auto;
 }
+
 
 /* ===PORTFOLIO=== */
 .portfolio {
@@ -223,12 +331,6 @@ header {
   transition: all 0.2s;
 }
 
-.inside__span span {
-  border: 1px white solid;
-  padding: 15px;
-
-  margin: 0 auto;
-}
 
 /* ===SERVICES=== */
 .services {

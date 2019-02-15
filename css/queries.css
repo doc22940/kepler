@@ -1,0 +1,25 @@
+/* big tablet to 1200px */
+@media only screen and (max-width: 1200px){
+
+
+}
+
+/* small tablet to big tablet */
+@media only screen and (max-width: 1023px){
+
+
+
+}
+
+/* big phones to small tablet */
+@media only screen and (max-width: 767px){
+    
+
+}
+
+/* small phones only    */
+@media only screen and (max-width: 480px){
+  
+    
+
+}

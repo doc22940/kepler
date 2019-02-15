@@ -25,4 +25,4 @@ $(document).ready(function() {
 
 });    
 
-$('#foo').slideUp(300).delay(8000).fadeIn(400);
+$('#foo').delay(3000).fadeIn(400);

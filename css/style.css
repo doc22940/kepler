@@ -4,9 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
-
 }
 body {
   font-size: 16px;
@@ -80,8 +79,7 @@ header {
   align-items: center;
   z-index: 1;
 }
-.menu-banner-sticky .logo-container h1{
-
+.menu-banner-sticky .logo-container h1 {
   font-size: 100%;
 }
 
@@ -120,8 +118,8 @@ header {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -133,7 +131,6 @@ header {
   text-align: left;
   margin-top: 30px;
   padding-left: 20px;
-  
 }
 
 .overlay a {
@@ -144,10 +141,10 @@ header {
   color: #818181;
   display: block;
   transition: 0.3s;
-  
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: #f1f1f1;
 }
 
@@ -168,10 +165,8 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
-.header-text h1
-{
+.header-text h1 {
   color: white;
   font-size: 325%;
   flex: 1;
@@ -179,7 +174,7 @@ header {
   align-items: center;
   text-shadow: 1px 1px 15px #000;
 }
-.header-text p{
+.header-text p {
   flex: 1;
   color: white;
   text-align: center;
@@ -187,10 +182,9 @@ header {
   align-items: center;
   padding-top: 15px;
   text-shadow: 1px 1px 15px #000;
-
 }
 
-.arrow{
+.arrow {
   align-items: center;
   width: 100%;
   height: 10vh;
@@ -199,28 +193,27 @@ header {
   top: 90%;
   left: 50%;
 }
-.arrow i{
+.arrow i {
   width: 100%;
   font-size: 300%;
-  color: white; 
+  color: white;
 }
-.placeholder-text{
+.placeholder-text {
   min-height: 40vh;
   max-height: 50vh;
   padding: 80px 30px !important;
   margin: 0 auto;
-  align-items: center; 
-  background-color: #FAFAFA; 
+  align-items: center;
+  background-color: #fafafa;
 }
 
-.placeholder-text p{
-  color: #9E9E9E;
+.placeholder-text p {
+  color: #9e9e9e;
   text-align: center;
   line-height: 2;
   font-size: 150%;
   margin: auto auto;
 }
-
 
 /* ===PORTFOLIO=== */
 .portfolio {
@@ -240,25 +233,16 @@ header {
   margin: 15px;
   height: 240px;
   width: 320px;
-  background: #515151;
+
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.inside {
+  background: #515151;
   position: relative;
-}
-
-.portfolio__photos img {
-  transition: all 0.5s;
-}
-
-.portfolio__photos img:hover {
-  transform: scale(1.15);
-  opacity: 0.2;
-}
-
-.portfolio__photos a:hover .portfolio__hidden-title {
-  opacity: 1;
 }
 
 .heading-container {
@@ -302,17 +286,34 @@ header {
 
 .portfolio__hidden-title {
   position: absolute;
-  top: 40%;
-  left: 40%;
-  border: 1px white solid;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding: 15px;
   opacity: 0;
   color: white;
-
   transition: all 0.2s;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
+.portfolio__hidden-title span {
+  border: 1px white solid;
+  padding: 15px;
+}
 
+.inside__pic {
+  transition: all 0.3s;
+}
+
+.inside__link:hover .inside__pic {
+  opacity: 0.2;
+}
+
+.inside__link:hover .portfolio__hidden-title {
+  opacity: 1;
+}
 
 /* ===SERVICES=== */
 .services {
@@ -361,5 +362,3 @@ header {
 /* ===MAIN=== */
 
 /* ===FOOTER=== */
-
-

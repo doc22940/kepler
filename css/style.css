@@ -305,10 +305,12 @@ header {
 
 .inside__pic {
   transition: all 0.3s;
+  transform: scale(1);
 }
 
 .inside__link:hover .inside__pic {
   opacity: 0.2;
+  transform: scale(1.2);
 }
 
 .inside__link:hover .portfolio__hidden-title {

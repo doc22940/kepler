@@ -15,71 +15,64 @@
  -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/queries.css" />
-    <title>The Keplers</title>
-  </head>
 
-  <body>
-    <header>
-      <nav id="foo" class="menu-banner">
-        <div class="logo-container">
-          <h1>KEPLERS</h1>
-        </div>
-        <div class="hamburger-menu">
-          <span style="cursor:pointer" onclick="openNav()">
-            <i class="fas fa-bars"></i>
-          </span>
-        </div>
-      </nav>
-      <div class="header-text">
-        <h1>LOOKING FOR A WEB EXPERT?</h1>
-        <p>Look no more. I'm a web design and development specialist.</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/queries.css">
+  <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/footer.css">
+  <title>The Keplers</title>
+</head>
+
+<body>
+  <header>
+    <nav id="foo" class="menu-banner">
+      <div class="logo-container">
+        <h1>KEPLERS</h1>
       </div>
-      <div class="arrow">
-        <i class="fas fa-angle-double-down"></i>
+      <div class="hamburger-menu">
+        <span style="cursor:pointer" onclick="openNav()">
+          <i class="fas fa-bars"></i>
+        </span>
       </div>
-    </header>
-    <!-- disappearing menu  -->
-    <div id="myNav" class="overlay" onscroll="setTimeout()">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        >&times;</a
-      >
-      <div class="overlay-content">
-        <a href="#about-text">About me</a>
-        <a href="#portfolio-page">Portfolio</a>
-        <a href="#services__koray">Services</a>
-        <a href="#blog">Blog</a>
-        <a href="#">Contact</a>
-      </div>
+    </nav>
+    <div class="header-text">
+      <h1>LOOKING FOR A WEB EXPERT?</h1>
+      <p>Look no more. I'm a web design and development specialist.</p>
     </div>
+    <div class="arrow">
+      <i class="fas fa-angle-double-down"></i>
+    </div>
+  </header>
+  <!-- disappearing menu  -->
+  <div id="myNav" class="overlay" onscroll="setTimeout()">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#about-text">About me</a>
+      <a href="#portfolio-page">Portfolio</a>
+      <a href="#services__koray">Services</a>
+      <a href="#blog">Blog</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
 
-    <section id="about-text" class="placeholder-text">
-      <p>
-        Devin Walker helps run the show at Thought House and WordImpress. He
-        <br />
-        loves to code, has a knack for design, and has built many successful
-        websites <br />
-        and applications. He leads by doing in San Diego, California.
-      </p>
-    </section>
+  <section id="about-text" class="placeholder-text">
+    <p>
+      Devin Walker helps run the show at Thought House and WordImpress. He <br>
+      loves to code, has a knack for design, and has built many successful websites <br>
+      and applications. He leads by doing in San Diego, California.
+    </p>
+  </section>
 
-    <!--PORTFOLIO SECTION STARTS HERE.... MADE BY KORAY DÜNDAR-->
-    <section id="portfolio-page" class="portfolio">
+  <!--PORTFOLIO SECTION STARTS HERE.... MADE BY KORAY DÜNDAR-->
+  <section id="portfolio-page" class="portfolio">
       <div class="heading-container">
         <div>
           <h3 class="heading-title heading-title--dark">My Latest Work</h3>
@@ -175,75 +168,152 @@
         </figure>
       </div>
     </section>
-    <!--PORTFOLIO SECTION ENDS HERE..... MADE BY KORAY DÜNDAR-->
+  <!--PORTFOLIO SECTION ENDS HERE..... MADE BY KORAY DÜNDAR-->
 
-    <!--SERVICES SECTION STARTS HERE.... MADE BY KORAY DÜNDAR-->
-    <section class="services" id="services__koray">
-      <div class="heading-container">
-        <div>
-          <h3 class="heading-title heading-title--white">My Services</h3>
-          <p class="services__paragraph">Let's build together.</p>
-        </div>
+  <!--SERVICES SECTION STARTS HERE.... MADE BY KORAY DÜNDAR-->
+  <section class="services" id="services__koray">
+    <div class="heading-container">
+      <div>
+        <h3 class="heading-title heading-title--white">My Services</h3>
+        <p class="services__paragraph">Let's build together.</p>
       </div>
-
-      <div class="services__container">
-        <div class="services__box">
-          <img
-            width="75"
-            height="75"
-            src="https://imdev.in/wp-content/themes/devin/assets/img/cog.svg"
-            class=" wp-post-image"
-            alt="Research"
-            title=""
-          />
-          <h3 class="service__title">Research</h3>
-          <p class="services__paragraph">
-            How are customers discovering your business and what can we do to
-            compete in the competitive marketplace online and off?
-          </p>
-        </div>
-        <div class="services__box">
-          <img
-            width="75"
-            height="75"
-            src="https://imdev.in/wp-content/themes/devin/assets/img/lightbulb.svg"
-            class=" wp-post-image"
-            alt="Creative"
-            title=""
-          />
-          <h3 class="service__title">Creative</h3>
-          <p class="services__paragraph">
-            Experience matters. We've shown our rigor. I'm backed by a design
-            and development team who are less assumptive and more disruptive.
-          </p>
-        </div>
-        <div class="services__box">
-          <img
-            width="75"
-            height="75"
-            src="https://imdev.in/wp-content/themes/devin/assets/img/ppc.svg"
-            class=" wp-post-image"
-            alt="Advertising"
-            title=""
-          />
-          <h3 class="service__title">Advertising</h3>
-          <p class="services__paragraph">
-            Strategic planning centered around your consumers' intent. We never
-            talk at our customers. We build with them
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!--PORTFOLIO SECTION ENDS HERE..... MADE BY KORAY DÜNDAR-->
-    <!-- ALBA WORKS FROM HERE -->
-    <div class="test div">
-      <h2>My name is Alba</h2>
-      <h3>And I am from Albania</h3>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="./js/jquery.waypoints.min.js"></script>
-    <script src="./js/script.js"></script>
-  </body>
+    <div class="services__container">
+      <div class="services__box">
+        <img width="75" height="75" src="https://imdev.in/wp-content/themes/devin/assets/img/cog.svg"
+          class=" wp-post-image" alt="Research" title="" />
+        <h3 class="service__title">Research</h3>
+        <p class="services__paragraph">
+          How are customers discovering your business and what can we do to
+          compete in the competitive marketplace online and off?
+        </p>
+      </div>
+      <div class="services__box">
+        <img width="75" height="75" src="https://imdev.in/wp-content/themes/devin/assets/img/lightbulb.svg"
+          class=" wp-post-image" alt="Creative" title="" />
+        <h3 class="service__title">Creative</h3>
+        <p class="services__paragraph">
+          Experience matters. We've shown our rigor. I'm backed by a design
+          and development team who are less assumptive and more disruptive.
+        </p>
+      </div>
+      <div class="services__box">
+        <img width="75" height="75" src="https://imdev.in/wp-content/themes/devin/assets/img/ppc.svg"
+          class=" wp-post-image" alt="Advertising" title="" />
+        <h3 class="service__title">Advertising</h3>
+        <p class="services__paragraph">
+          Strategic planning centered around your consumers' intent. We never
+          talk at our customers. We build with them
+        </p>
+      </div>
+    </div>
+  </section>
+  ​
+  <!--PORTFOLIO SECTION ENDS HERE..... MADE BY KORAY DÜNDAR-->
+  <!-- ALBA WORKS FROM HERE -->
+  ​
+  <section class="blog">
+    <div class="section-head">
+      <div>
+        <h3 class="section-title">From the Blog</h3>
+        <p>I write regularly about code, design & life.</p>
+
+      </div>
+      <a class="section-head-button" href="#">View All</a>
+    </div>
+    <div class="blog-holder">
+      <h1 class="blog-heading"><a class="title-link" href="#">WooCommerce:How to Get Total Sales and Orders of All
+          Products</a></h1>
+      <p class="publish-date">Posted on Nov 5, 2015 in <a class="p-link" href="#">Coding</a>|<a class="p-link"
+          href="#">24 Comments</a></p>
+      <p class="blog__paragraph">Learn how to use WooCommerce’s reporting functionality to get the total sales and
+        orders for your use on the front or backend of WordPress.</p>
+      <a class="blog__button" href="#">Read More</a>
+    </div>
+    <div class="blog-holder">
+      <h1 class="blog-heading"><a class="title-link" href="#">WordCamp LAX 2015 and Forking it Right</a></h1>
+      <p class="publish-date">Posted on Oct 21, 2015 in <a class="p-link" href="#">WordPress</a>|<a class="p-link"
+          href="#">No Comments</a></p>
+      <p class="blog__paragraph">I spoke at WordCamp Los Angeles 2015, here are the slides, photos and the video.I spoke
+        at WordCamp Los Angeles 2015, here are the slides, photos and the video.</p>
+      <a class="blog__button" href="#">Read More</a>
+    </div>
+    <div class="blog-holder no-border">
+      <h1 class="blog-heading"><a class="title-link" href="#">Recent Presenations from WordCamp Los Angeles and Las
+          Vegas 2015</a></h1>
+      <p class="publish-date">Posted on Sep 29, 2015 in <a class="p-link" href="#">WordPress</a>|<a class="p-link"
+          href="#">One Comment</a></p>
+      <p class="blog__paragraph">I recently spoke at WordCamp Los Angeles and Las Vegas this year (2015). Both Camps
+        were very well organized and I got to see a lot of good friends in the WordPress community. Here are my slides
+        for both presentations. I hope you enjoy them! WordCamp Las Vegas: Build it Right, And They Will Come […]</p>
+      <a class="blog__button" href="#">Read More</a>
+    </div>
+  </section>
+  <!--Section Contact Me Starts here-->
+  <section class="ContactMe">
+    <div class="contact-container">
+      <p class="heading-paragraph-white">Trust your project in the hands of experts.I'm head of a nimble group of
+        designers and developers whose commitment to quality is unrelenting.Let's start the conversation.</p>
+      <div class="button-box-contactme">
+        <a class="buttoncontactme" href="#link">contact me</a>
+      </div>
+    </div>
+
+  </section>
+  <section class="center">
+    <div class="t-title">
+      <h6>
+        A Few Recommendations
+      </h6>
+      <p>Quotes from Past Clients
+      </p>
+    </div>
+    <div class="testimonial">
+      <div><img src="./assets/jeran-fraser.jpg" alt="">
+        <p>Devin helped us create and develop several brand strategies and websites. With his expertise and
+          understanding of
+          various aspects and platforms we were able to accomplish our goals. He far exceeded expectation and
+          we would recommend
+          Devin to anyone.
+        </p>
+        <p><strong>-Jeran Fraser</strong></p>
+      </div>
+      <div><img src="./assets/adam-smith.jpg" alt="">
+        <p>Sound Press is so pleased to have Devin Walker as a development partner. Devin has so many talents
+          such as understanding
+          SEO, he is a master of CSS, and his WordPress prowess is unmatched. With Devin, we are able to
+          provide a higher level of
+          expertise together to clients, and make greater gains in their success.
+        </p>
+        <p><strong>-Adam Smith</strong></p>
+      </div>
+      <div><img src="./assets/eric-bach.jpg" alt="">
+        <p>The Modern Gypsies were a few weeks out from our premier on ABC’s Expedition Impossible and we needed
+          a website, ASAP.
+          Thankfully, worked with us to develop a site before the first episode. Because of his efforts we
+          were able to create a
+          unique website and connect with our fans.
+        </p>
+        <p><strong>-Eric bach</strong></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <section class="center">
+      <div class="footer-object">
+        <p>&copy; 2019 <strong>Devin Walker</strong> All Rights Reserved.<p>
+            <img class="logo-footer" src="./assets/logo@2x.png" alt="">
+      </div>
+    </section>
+  
+  
+  </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="./js/jquery.waypoints.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
 </html>
+

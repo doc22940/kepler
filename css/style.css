@@ -358,8 +358,174 @@ header {
   margin-bottom: 25px;
 }
 
-/* ===MAIN=== */
+/* =====ALBA==Blog====Contactme==== */
+.section-head {
+  font-size: 150%;
+  font-weight: 320;
+  margin-bottom: 0;
+  padding: 80px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-title {
+  font-weight: 400;
+}
+.section-head-button {
+  text-decoration: none;
+  color: #b4b4b4;
+  border: 2px solid #b4b4b4;
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  font-size: 80%;
+}
+.section-head-button:hover {
+  background: transparent;
+  border: 2px solid #4b4b4b;
+  color: #4b4b4b;
+}
+.title-link {
+  text-decoration: none;
+  color: black;
+}
+.title-link:hover {
+  color: #a1a0a0;
+}
+.blog {
+  padding: 80px 0;
+}
+.blog-holder {
+  width: 90%;
+  margin: 0 auto 25px auto;
+  border-bottom: 1px dashed #ccc;
+  padding: 0 0 55px;
+}
 
+.no-border {
+  border-bottom: none;
+}
+.blog-heading {
+  font-size: 200%;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.publish-date {
+  color: #b0b0ad;
+  margin-bottom: 15px;
+}
+
+.publish-date a {
+  color: #7d7d7b;
+  text-decoration: none;
+}
+
+.blog__paragraph {
+  margin-bottom: 30px;
+}
+.p-link:hover {
+  color: #4b4b4b;
+}
+.blog__button {
+  text-decoration: none;
+  color: #b0b0ad;
+  text-transform: uppercase;
+  font-size: 80%;
+  border: 1px solid;
+  padding: 10px;
+}
+.blog__button:hover {
+  background: transparent;
+  border: 2px solid #4b4b4b;
+  color: #4b4b4b;
+}
+
+/* =====Contact Me==== */
+.ContactMe {
+  padding: 150px 0 120px 0;
+  background: url("../images/devin-amps.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.contact-container {
+  font-size: 80%;
+  text-align: center;
+  font-family: "brandon-grotesque" sans-serif;
+  margin-bottom: 30px;
+  top: 40%;
+  left: 40%;
+  color: white;
+  margin: 0 0 20px 0;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.8;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 68px;
+}
+.heading-paragraph-white {
+  font-size: 205%;
+  margin-bottom: 25px;
+}
+.button-box-contactme {
+  padding: 10px 30px;
+  display: inline-flex;
+  text-transform: uppercase;
+  font-size: 115%;
+  background: transparent;
+  color: white;
+  border: 2px solid #b4b4b4;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 700;
+}
+.buttoncontactme {
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.test-section {
+  height: 60vh;
+}
+
+.services__container {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services__box {
+  height: 240px;
+  width: 320px;
+  text-align: center;
+  padding: 30px 5px;
+}
+
+.service__title {
+  font-size: 110%;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.services__paragraph {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 102%;
+}
+
+.services__box img {
+  margin-bottom: 25px;
+}
 /* ===FOOTER=== */
 
 

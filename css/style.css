@@ -4,13 +4,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 
 }
+
 body {
   font-size: 16px;
-  font-family: "Lato", sans-serif; /*check from HTML head section to see possible font-weight options*/
+  font-family: "Lato", sans-serif;
+  /*check from HTML head section to see possible font-weight options*/
 }
 
 /* ===HEADER=== */
@@ -33,6 +36,7 @@ header {
   flex-direction: column;
   position: relative;
 }
+
 .menu-banner {
   height: 10vh;
   display: flex;
@@ -41,25 +45,31 @@ header {
   z-index: 1;
 }
 
-.logo-container {
-  flex: 1;
-  margin: 20px 0 15px 15px;
+.logo {
+  display: block;
+  margin: 1rem;
+  text-indent: -9999px;
+  width: 200px;
+  height: 82px;
+  background: url(../assets/logo.svg);
+  background-size: 200px 82px;
 }
 
-.logo-container h1 {
+/* .logo-container h1 {
   border: 4px solid white;
   color: white;
   font-size: 200%;
   padding: 5px;
   width: 150px;
   text-align: center;
-}
+} */
 .hamburger-menu {
   flex: 1;
   display: flex;
   margin: 20px;
   justify-content: flex-end;
 }
+
 .hamburger-menu i {
   font-size: 200%;
   padding: 20px;
@@ -80,7 +90,8 @@ header {
   align-items: center;
   z-index: 1;
 }
-.menu-banner-sticky .logo-container h1{
+
+.menu-banner-sticky .logo-container h1 {
 
   font-size: 100%;
 }
@@ -99,12 +110,14 @@ header {
   width: 150px;
   text-align: center;
 }
+
 .hamburger-menu {
   flex: 1;
   display: flex;
   margin: 20px;
   justify-content: flex-end;
 }
+
 .hamburger-menu i {
   font-size: 200%;
   padding: 20px;
@@ -120,8 +133,8 @@ header {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -133,7 +146,7 @@ header {
   text-align: left;
   margin-top: 30px;
   padding-left: 20px;
-  
+
 }
 
 .overlay a {
@@ -144,10 +157,11 @@ header {
   color: #818181;
   display: block;
   transition: 0.3s;
-  
+
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: #f1f1f1;
 }
 
@@ -157,6 +171,7 @@ header {
   right: 65px;
   font-size: 40px;
 }
+
 /* ========== sticky menu ENDS ==========  */
 
 .header-text {
@@ -168,10 +183,10 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+
 }
-.header-text h1
-{
+
+.header-text h1 {
   color: white;
   font-size: 325%;
   flex: 1;
@@ -179,7 +194,8 @@ header {
   align-items: center;
   text-shadow: 1px 1px 15px #000;
 }
-.header-text p{
+
+.header-text p {
   flex: 1;
   color: white;
   text-align: center;
@@ -190,7 +206,7 @@ header {
 
 }
 
-.arrow{
+.arrow {
   align-items: center;
   width: 100%;
   height: 10vh;
@@ -199,21 +215,23 @@ header {
   top: 90%;
   left: 50%;
 }
-.arrow i{
+
+.arrow i {
   width: 100%;
   font-size: 300%;
-  color: white; 
+  color: white;
 }
-.placeholder-text{
+
+.placeholder-text {
   min-height: 40vh;
   max-height: 50vh;
   padding: 80px 30px !important;
   margin: 0 auto;
-  align-items: center; 
-  background-color: #FAFAFA; 
+  align-items: center;
+  background-color: #FAFAFA;
 }
 
-.placeholder-text p{
+.placeholder-text p {
   color: #9E9E9E;
   text-align: center;
   line-height: 2;
@@ -367,9 +385,11 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 .section-title {
   font-weight: 400;
 }
+
 .section-head-button {
   text-decoration: none;
   color: #b4b4b4;
@@ -380,21 +400,26 @@ header {
   padding: 10px;
   font-size: 80%;
 }
+
 .section-head-button:hover {
   background: transparent;
   border: 2px solid #4b4b4b;
   color: #4b4b4b;
 }
+
 .title-link {
   text-decoration: none;
   color: black;
 }
+
 .title-link:hover {
   color: #a1a0a0;
 }
+
 .blog {
   padding: 80px 0;
 }
+
 .blog-holder {
   width: 90%;
   margin: 0 auto 25px auto;
@@ -405,6 +430,7 @@ header {
 .no-border {
   border-bottom: none;
 }
+
 .blog-heading {
   font-size: 200%;
   font-weight: 400;
@@ -424,9 +450,11 @@ header {
 .blog__paragraph {
   margin-bottom: 30px;
 }
+
 .p-link:hover {
   color: #4b4b4b;
 }
+
 .blog__button {
   text-decoration: none;
   color: #b0b0ad;
@@ -435,6 +463,7 @@ header {
   border: 1px solid;
   padding: 10px;
 }
+
 .blog__button:hover {
   background: transparent;
   border: 2px solid #4b4b4b;
@@ -451,10 +480,11 @@ header {
   background-position: center;
   background-attachment: fixed;
 }
+
 .contact-container {
   font-size: 80%;
   text-align: center;
-  font-family: "brandon-grotesque" sans-serif;
+  font-family: "brandon-grotesque"sans-serif;
   margin-bottom: 30px;
   top: 40%;
   left: 40%;
@@ -467,10 +497,12 @@ header {
   margin: 0 auto;
   padding: 0 68px;
 }
+
 .heading-paragraph-white {
   font-size: 205%;
   margin-bottom: 25px;
 }
+
 .button-box-contactme {
   padding: 10px 30px;
   display: inline-flex;
@@ -483,6 +515,7 @@ header {
   margin: 0 auto;
   font-weight: 700;
 }
+
 .buttoncontactme {
   font-family: "brandon-grotesque", sans-serif;
   text-transform: uppercase;
@@ -526,81 +559,80 @@ header {
 .services__box img {
   margin-bottom: 25px;
 }
+
 /* ===FOOTER=== */
 
 .center {
-    width: 1000px;
-    margin: 0 auto;
+  width: 1000px;
+  margin: 0 auto;
 
 }
 
 .t-title {
-    text-align: center;
-    margin: 2rem;
+  text-align: center;
+  margin: 2rem;
 }
 
 .t-title h6 {
-    font-size: 1.9em;
-    padding: 1rem;
+  font-size: 1.9em;
+  padding: 1rem;
 }
 
 
 .testimonial {
-    display: flex;
-    margin-bottom: 2rem;
-    max-width: 100%;
-    justify-content: space-between;
+  display: flex;
+  margin-bottom: 2rem;
+  max-width: 100%;
+  justify-content: space-between;
 
 }
 
 .testimonial div {
-    width: 200px;
-    border-radius: 50%;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .testimonial img {
-    border-radius: 50%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .testimonial div p {
-    text-align: center;
-    font-size: 1em;
-    color: #989797;
+  text-align: center;
+  font-size: 1em;
+  color: #989797;
 
 }
 
 .testimonial div p:nth-child(3) {
-    text-align: center;
-    padding: 1rem
+  text-align: center;
+  padding: 1rem
 }
 
 footer {
-    background: #F1F0F0;
+  background: #F1F0F0;
 }
 
 .footer-object {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem 0;
 }
 
 footer p {
-    font-size: 1.2em;
-    color: #989797;
+  font-size: 1.2em;
+  color: #989797;
 }
 
 strong {
-    color: #646464;
+  color: #646464;
 }
 
 .logo-footer {
-    width: 170px;
-    height: 53px;
-    ;
+  width: 170px;
+  height: 53px;
+  ;
 }
-
-
